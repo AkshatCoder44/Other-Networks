@@ -1,5 +1,7 @@
 // Inputs for 3 time steps
-let x1 = 0.2, x2 = 0.4, x3 = 0.6;
+let x1 = 0.2;
+let x2 = 0.4;
+let x3 = 0.6;
 let target = 0.8; 
 
 // weights
