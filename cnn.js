@@ -6,8 +6,10 @@ let image = [
 ];
 
 // 2x2 filter
-let f11 = Math.random(), f12 = Math.random();
-let f21 = Math.random(), f22 = Math.random();
+let f11 = Math.random();
+let f12 = Math.random();
+let f21 = Math.random();
+let f22 = Math.random();
 
 let target = 1;
 let lr = 0.1;
