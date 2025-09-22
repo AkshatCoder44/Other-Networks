@@ -1,11 +1,19 @@
 // Inputs for 2 time steps
-let x1 = 0.5, x2 = 0.7;
+let x1 = 0.5;
+let x2 = 0.7;
 let target = 1.0;
 
 // weights
-let wf = Math.random(), wi = Math.random(), wc = Math.random(), wo = Math.random();
-let bf = Math.random(), bi = Math.random(), bc = Math.random(), bo = Math.random();
-let w_out = Math.random(), b_out = Math.random();
+let wf = Math.random();
+let wi = Math.random();
+let wc = Math.random();
+let wo = Math.random();
+let bf = Math.random();
+let bi = Math.random();
+let bc = Math.random();
+let bo = Math.random();
+let w_out = Math.random();
+let b_out = Math.random();
 
 let lr = 0.1;
 
