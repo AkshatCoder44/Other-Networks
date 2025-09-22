@@ -35,7 +35,7 @@ for (let epoch=0; epoch<200; epoch++) {
   wg -= lr*gErr*z;
 }
 
-// ✅ final outputs after training
+// ✅ final outputs after training 
 let testZ = Math.random();
 let genImage = wg * testZ; // generator’s final fake output
 let dOnFake = sig(wd*genImage + bd);
